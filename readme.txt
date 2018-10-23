@@ -76,4 +76,13 @@ main:
 	add $a0, $a0, -12
 	syscall
 	
+	# Next two lines print out "o"
+	add $a0, $a0, 7
+	syscall
+
+	# Next two lines print out "n"
+	add $a0, $a0, -1
+	syscall
+	
+	
 	
