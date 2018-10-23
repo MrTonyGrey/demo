@@ -52,3 +52,11 @@ main:
 	addi $a0, $a0, -1
 	syscall
 
+	# Next two lines print out ","
+	addi $a0, $a0, -66
+	syscall
+
+	# Next two lines print out SPACE
+	add $a0, $a0, -12
+	syscall
+	
