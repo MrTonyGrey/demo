@@ -26,3 +26,12 @@ main:
 	li $v0, 11
 	la $a0, 10
 	syscall
+	
+	# Next two lines print out "G"
+	li $v0, 11
+	la $a0, 71
+	syscall
+	
+	# Next two lines print out "o"
+	addi $a0, $a0, 40
+	syscall
