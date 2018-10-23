@@ -84,5 +84,14 @@ main:
 	add $a0, $a0, -1
 	syscall
 	
+	# Next two lines print out "y"
+	add $a0, $a0, 11
+	syscall
+
+
+# Exit program
+li $v0, 10
+syscall
+	
 	
 	
