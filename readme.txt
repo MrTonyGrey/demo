@@ -15,3 +15,14 @@ main:
 	li $v0, 4
 	la $a0, the_string
 	syscall
+
+
+	# Next three lines print out the rest of my ID, which is "2863625"
+	li $v0, 1
+	la $a0, 02863625
+	syscall
+
+	# Next three lines print out a newline
+	li $v0, 11
+	la $a0, 10
+	syscall
