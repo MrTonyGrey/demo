@@ -35,3 +35,11 @@ main:
 	# Next two lines print out "o"
 	addi $a0, $a0, 40
 	syscall
+
+	# Next two lines print out "r"
+	addi $a0, $a0, 3
+	syscall
+
+	# Next two lines print out "d"
+	addi $a0, $a0, -14
+	syscall
