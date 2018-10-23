@@ -43,3 +43,12 @@ main:
 	# Next two lines print out "d"
 	addi $a0, $a0, -14
 	syscall
+	
+	# Next two lines print out "o"
+	addi $a0, $a0, 11
+	syscall
+
+	# Next two lines print out "n"
+	addi $a0, $a0, -1
+	syscall
+
