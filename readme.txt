@@ -60,3 +60,13 @@ main:
 	add $a0, $a0, -12
 	syscall
 	
+	# Next two lines print out "A"
+	add $a0, $a0, 33
+	syscall
+
+	# Next two lines print out "n"
+	add $a0, $a0, 45
+	syscall
+	
+	
+	
