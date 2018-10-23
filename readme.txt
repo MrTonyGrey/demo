@@ -68,5 +68,12 @@ main:
 	add $a0, $a0, 45
 	syscall 
 	
+	# Next two lines print out "t"
+	add $a0, $a0, 6
+	syscall
+
+	# Next two lines print out "h"
+	add $a0, $a0, -12
+	syscall
 	
 	
