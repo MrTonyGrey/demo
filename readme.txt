@@ -66,7 +66,7 @@ main:
 
 	# Next two lines print out "n"
 	add $a0, $a0, 45
-	syscall
+	syscall 
 	
 	
 	
